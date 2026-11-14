@@ -155,4 +155,10 @@ Project ini dikembangkan oleh:
 
 Dibuat untuk keperluan akademik dan pemenuhan tugas *submission* Dicoding **Belajar Dasar Pemrograman Web**. Silakan gunakan untuk referensi pembelajaran.
 
-```
+<div align="center">
+
+### ⭐ Jangan lupa berikan Star jika proyek ini bermanfaat!
+
+Created by [Nova11-F](https://github.com/Nova11-F)
+
+</div>
