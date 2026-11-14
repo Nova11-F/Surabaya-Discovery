@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surabaya Discovery — Jelajahi Kota Pahlawan</title>
+  <meta name="description" content="Profil Kota Surabaya: sejarah, wisata, kuliner, dan budaya Kota Pahlawan.">
+
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 24C10 14 18 10 24 14C30 18 20 20 24 26C28 32 38 28 42 20" stroke="#2563EB" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="10" cy="20" r="2" fill="#F59E0B"/>
+          </svg>
+        </span>
+        <span class="logo-text">Surabaya<strong>Discovery</strong></span>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="#beranda" class="nav-link active-link">Beranda</a></li>
+          <li><a href="#sejarah" class="nav-link">Sejarah</a></li>
+          <li><a href="#wisata" class="nav-link">Wisata</a></li>
+          <li><a href="#kuliner" class="nav-link">Kuliner</a></li>
+          <li><a href="#budaya" class="nav-link">Budaya</a></li>
+          <li><a href="https://www.dicoding.com/users/rayy11" target="_blank" rel="noopener" class="nav-link nav-link-outline">Profil Dicoding</a></li>
+        </ul>
+      </nav>
+
+      <a href="#wisata" class="btn btn-primary header-cta">Explore Now</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="beranda">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow"><i class="fa-solid fa-location-dot"></i> Jawa Timur, Indonesia</p>
+          <h1>Selamat Datang di Kota <span class="text-accent-blue">Surabaya</span></h1>
+          <p class="hero-desc">
+            Jelajahi Kota Pahlawan yang penuh sejarah, budaya yang kaya, dan kuliner legendaris.
+            Temukan pesona kota metropolitan terbesar kedua di Indonesia yang terus berkembang
+            tanpa melupakan akar tradisinya.
+          </p>
+          <div class="hero-actions">
+            <a href="#wisata" class="btn btn-primary">Jelajahi Kota <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#sejarah" class="btn btn-ghost">Pelajari Sejarah</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="images/buaya.jpg" alt="Monumen Suro dan Boyo, ikon Kota Surabaya" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MAIN CONTENT ============ -->
+    <div class="container content-layout">
+
+      <!-- ============ ARTICLE ============ -->
+      <article class="main-article">
+
+        <!-- SECTION 1: SEJARAH -->
+        <section class="content-section" id="sejarah">
+          <p class="section-eyebrow"><i class="fa-solid fa-scroll"></i> Sejarah</p>
+          <h2>Kisah di Balik Kota Pahlawan</h2>
+          <div class="card sejarah-card reveal">
+            <p>
+              Surabaya terkenal sebagai "Kota Pahlawan" karena peran pentingnya dalam
+              pertempuran 10 November 1945, sebuah peristiwa heroik di mana rakyat Surabaya
+              berjuang keras mempertahankan kemerdekaan Indonesia dari pasukan sekutu. Peristiwa
+              tersebut kini diperingati sebagai Hari Pahlawan Nasional.
+            </p>
+            <p>
+              Nama Surabaya sendiri konon berasal dari mitos pertarungan antara ikan hiu (Suro)
+              dan buaya (Boyo), yang menjadi lambang keberanian pemuda-pemuda Surabaya. Sejarah
+              panjang ini membentuk karakter kota yang tangguh dan dinamis, berkembang dari
+              pelabuhan tua menjadi pusat perdagangan modern di kawasan timur Indonesia.
+            </p>
+            <p>
+              Hingga kini, jejak masa lalu masih dapat ditelusuri melalui bangunan-bangunan
+              kolonial di kawasan Kota Tua, museum-museum bersejarah, serta monumen-monumen
+              perjuangan yang tersebar di berbagai penjuru kota.
+            </p>
+          </div>
+        </section>
+
+        <!-- SECTION 2: WISATA -->
+        <section class="content-section" id="wisata">
+          <p class="section-eyebrow"><i class="fa-solid fa-map-location-dot"></i> Wisata</p>
+          <h2>Tempat Wisata Populer</h2>
+          <div class="card-grid wisata-grid">
+
+            <div class="card wisata-card reveal">
+              <div class="card-media">
+                <span class="badge badge-blue">Ikonik</span>
+                <img src="images/tunjungan.jpg" alt="Pemandangan Tunjungan di malam hari" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3>Tunjungan</h3>
+                <p>Jalan Tunjungan merupakan salah satu destinasi wisata ikonik di Kota Surabaya yang memadukan nilai sejarah, budaya, dan suasana kota modern.</p>
+                <a href="#" class="btn btn-outline btn-sm">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="card wisata-card reveal">
+              <div class="card-media">
+                <span class="badge badge-amber">Budaya</span>
+                <img src="images/chinatown.jpg" alt="Kawasan Tiongkok di Surabaya" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3>Chinatown</h3>
+                <p>Chinatown Surabaya atau kawasan Kembang Jepun (Kya-Kya) merupakan destinasi wisata budaya yang mencerminkan sejarah panjang komunitas Tionghoa di Surabaya.</p>
+                <a href="#" class="btn btn-outline btn-sm">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="card wisata-card reveal">
+              <div class="card-media">
+                <span class="badge badge-blue">Bahari</span>
+                <img src="images/kenjeran.jpg" alt="Kawasan pesisir Kenjeran Park Surabaya" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3>Kenjeran Park</h3>
+                <p>Kawasan wisata tepi laut dengan jembatan merah ikonik, kelenteng, dan
+                  panorama sunset yang memukau di ujung timur kota.</p>
+                <a href="#" class="btn btn-outline btn-sm">Lihat Detail</a>
+              </div>
+            </div>
+
+            <div class="card wisata-card reveal">
+              <div class="card-media">
+                <span class="badge badge-amber">Edukasi</span>
+                <img src="images/kbs.jpg" alt="Koleksi satwa di Kebun Binatang Surabaya" loading="lazy">
+              </div>
+              <div class="card-body">
+                <h3>Kebun Binatang Surabaya</h3>
+                <p>Salah satu kebun binatang tertua dan terlengkap di Asia Tenggara, rumah
+                  bagi ratusan spesies flora dan fauna langka.</p>
+                <a href="#" class="btn btn-outline btn-sm">Lihat Detail</a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- SECTION 3: KULINER -->
+        <section class="content-section" id="kuliner">
+          <p class="section-eyebrow"><i class="fa-solid fa-bowl-food"></i> Kuliner</p>
+          <h2>Cita Rasa Khas Surabaya</h2>
+          <div class="kuliner-list">
+
+          <div class="reveal">
+            <div class="card kuliner-card">
+              <img src="images/rujakcingur.jpg" alt="Rujak Cingur, kuliner khas Surabaya" loading="lazy">
+              <div class="card-body">
+                <h3>Rujak Cingur</h3>
+                <p>Makanan tradisional khas Surabaya yang unik, terdiri dari irisan mulut
+                  sapi (cingur), sayuran, buah-buahan, tahu, dan tempe, disiram bumbu petis
+                  udang yang khas.</p>
+                <span class="tag">Tradisional</span>
+              </div>
+            </div>
+
+            <div class="card kuliner-card ">
+              <img src="images/Semanggi.png" alt="Semanggi Suroboyo, kuliner khas Surabaya" loading="lazy">
+              <div class="card-body">
+                <h3>Semanggi Suroboyo</h3>
+                <p>Sajian daun semanggi rebus yang disiram saus kacang manis pedas, disajikan
+                  bersama kerupuk puli renyah oleh penjual keliling khas kota lama.</p>
+                <span class="tag">Legendaris</span>
+              </div>
+            </div>
+
+            <div class="card kuliner-card ">
+              <img src="images/lontongbalap.jpg" alt="Lontong Balap, kuliner khas Surabaya" loading="lazy">
+              <div class="card-body">
+                <h3>Lontong Balap</h3>
+                <p>Perpaduan lontong, tauge, tahu goreng, dan lentho, disiram kuah kaldu
+                  gurih serta taburan bawang goreng dan sambal petis.</p>
+                <span class="tag">Sarapan</span>
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- SECTION 4: BUDAYA -->
+        <section class="content-section" id="budaya">
+          <p class="section-eyebrow"><i class="fa-solid fa-masks-theater"></i> Budaya</p>
+          <h2>Warisan Budaya Kota Pahlawan</h2>
+          <div class="card-grid budaya-grid">
+
+          
+            <div class="card budaya-card reveal">
+              <div class="budaya-icon"><i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i></div>
+              <h3>Tari Remo</h3>
+              <p>Tarian penyambutan khas Surabaya yang menggambarkan semangat kepahlawanan
+                melalui gerakan kaki yang tegas dan dinamis.</p>
+            </div>
+
+            <div class="card budaya-card reveal">
+              <div class="budaya-icon"><i class="fa-solid fa-shirt"></i></div>
+              <h3>Pakaian Adat</h3>
+              <p>Busana khas Jawa Timuran dipadukan dengan gaya Cak dan Ning, ikon
+                  pasangan muda-mudi Surabaya yang mencerminkan kesantunan lokal.</p>
+            </div>
+
+            <div class="card budaya-card reveal">
+              <div class="budaya-icon"><i class="fa-solid fa-comments"></i></div>
+              <h3>Bahasa Suroboyoan</h3>
+              <p>Dialek Jawa yang khas dengan intonasi tegas dan kosakata unik, menjadi
+                identitas komunikasi sehari-hari warga kota.</p>
+            </div>
+
+            <div class="card budaya-card reveal">
+              <div class="budaya-icon"><i class="fa-solid fa-star"></i></div>
+              <h3>Festival Rujak Uleg</h3>
+              <p>Perayaan tahunan memperingati hari jadi kota, diramaikan lomba mengulek
+                rujak raksasa di sepanjang Jalan Kembang Jepun.</p>
+            </div>
+
+          </div>
+        </section>
+
+      </article>
+
+      <!-- ============ ASIDE ============ -->
+      <aside class="sidebar">
+        <div class="card profile-card reveal">
+          <div class="profile-photo-wrap">
+            <img src="images/profil.jpg" alt="Foto profil pemilik website" class="profile-photo">
+          </div>
+          <h2 class="profile-name">Firman Nova Prayoga</h2>
+          <p class="profile-status">Mahasiswa &amp; Web Developer</p>
+
+          <ul class="profile-info">
+            <li><i class="fa-solid fa-graduation-cap"></i> <span>Universitas Negeri Surabaya</span></li>
+            <li><i class="fa-solid fa-book"></i> <span>Program Studi Teknik Informatika</span></li>
+            <li><i class="fa-solid fa-envelope"></i> <span>firmannovaprayoga@gmail.com</span></li>
+            <li><i class="fa-solid fa-heart"></i> <span>Fotografi, Coding, Mendaki</span></li>
+          </ul>
+
+          <a href="https://www.dicoding.com/users/rayy11" target="_blank" rel="noopener" class="btn btn-primary btn-block">
+            <i class="fa-brands fa-dev"></i> Lihat Profil Dicoding
+          </a>
+        </div>
+
+        <div class="card city-stats-card reveal">
+          <h2 class="stats-title">Profil Kota</h2>
+          <ul class="stats-list">
+            <li><span class="stats-label">Nama</span><span class="stats-value">Surabaya</span></li>
+            <li><span class="stats-label">Provinsi</span><span class="stats-value">Jawa Timur</span></li>
+            <li><span class="stats-label">Jumlah Penduduk</span><span class="stats-value">&plusmn; 2,9 juta</span></li>
+            <li><span class="stats-label">Luas Wilayah</span><span class="stats-value">350,54 km&sup2;</span></li>
+            <li><span class="stats-label">Hari Jadi</span><span class="stats-value">31 Mei 1293</span></li>
+            <li><span class="stats-label">Julukan</span><span class="stats-value">Kota Pahlawan</span></li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text light">Surabaya<strong>Discovery</strong></span>
+        <p>Mengenalkan pesona Kota Pahlawan kepada dunia — sejarah, wisata, kuliner, dan
+          budaya dalam satu tempat.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navigasi cepat">
+        <h3>Navigasi Cepat</h3>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#wisata">Wisata</a></li>
+          <li><a href="#kuliner">Kuliner</a></li>
+          <li><a href="#budaya">Budaya</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <h3>Ikuti Kami</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Surabaya Discovery. Dibuat untuk submission Dicoding Belajar Dasar Pemrograman Web.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
