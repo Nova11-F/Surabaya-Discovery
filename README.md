@@ -156,13 +156,3 @@ Project ini dikembangkan oleh:
 Dibuat untuk keperluan akademik dan pemenuhan tugas *submission* Dicoding **Belajar Dasar Pemrograman Web**. Silakan gunakan untuk referensi pembelajaran.
 
 ```
-
----
-
-<ElicitationsGroup message="Untuk mengembangkan project ini lebih lanjut, Anda dapat memilih opsi di bawah ini:">
-  <Elicitation label="Tambahkan halaman detail wisata terpisah (Multi-page HTML)" query="Bagaimana cara menambahkan halaman detail wisata terpisah dan menghubungkannya dengan navigasi di Surabaya Discovery?"/>
-  <Elicitation label="Optimasi performa gambar dan SEO tag untuk deployment" query="Bagaimana cara mengoptimalkan performa gambar (konversi WebP) dan menambahkan meta tag OpenGraph untuk SEO Surabaya Discovery?"/>
-  <Elicitation label="Tambahkan fitur pencarian kuliner atau tempat wisata interaktif" query="Bagaimana cara menambahkan fitur search bar interaktif dengan JavaScript untuk memfilter daftar wisata dan kuliner di Surabaya Discovery?"/>
-</ElicitationsGroup>
-
-```
